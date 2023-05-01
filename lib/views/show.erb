@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>Voici la page du ragot n°<%= @id %></h1>
+    <p>Son auteur : <%= @gossip.author %></p>
+    <p>Le contenu du ragot : <%= @gossip.content %></p>
+    <a href="/gossips/<%= @id %>/edit/">Modifier le ragot</a>
+    <a href="/">Revenir à la liste des ragots</a>
+  </body>
+</html>
